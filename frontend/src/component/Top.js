@@ -20,20 +20,20 @@ class Top extends Component<{}, any> {
 				<Grid style={({margin: '15px'})} textAlign='center'>
 					<Grid.Column width={16}>
 						<Header as='h2' icon textAlign='center'>
-							<Icon name='car' circular />
+							<Icon name='computer' circular />
 							<Header.Content>
-								Nosso Lava Jato
+								Observer oO
 							</Header.Content>
 						</Header>
 					</Grid.Column>
 				</Grid>
 				<div className='col-12 text-center' 
 					style={({marginTop: '10px', marginBottom: '20px'})}>
-					<Link to='/' style={({margin: '5px'})}> Home </Link>
+					{ /*<Link to='/' style={({margin: '5px'})}> Home </Link>
 					<Link to='/client/new' style={({margin: '5px'})}> Novo Cliente </Link>
 					<Link to='/service/new' style={({margin: '5px'})}> Criar Serviço </Link>
 					<Link to='/bestClients' style={({margin: '5px'})}> Melhores clientes </Link>
-					<Link to='/report' style={({margin: '5px'})}> Relatório </Link>
+					<Link to='/report' style={({margin: '5px'})}> Relatório </Link> */}
 				</div>
 			</div>
     );

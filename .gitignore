@@ -27,4 +27,4 @@ server/target/
 .DS_Store
 *.lock
 /node_modules/
-web/package-lock.json
+frontend/package-lock.json
